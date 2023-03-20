@@ -8,25 +8,25 @@
 
 int main(void)
 
-{	int l;
+{	int t;
 	int i;
 
-	for (l = 0; l <= 9; l++)
+	for (t = 0; t <= 9; t++)
 
 	{
-		for (i = 1 + 1; i <= 9; i++)
+		for (i = t + 1; i <= 9; i++)
 		{
 
-			{	putchar(l + '0');
-				putchar(i + '0');
-				if (l == 8 && i == 9)
-					putchar('\n');
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			putchar(t + '0');
+			putchar(i + '0');
+			if (t == 8 && i == 9)
+				putchar('\n');
+			else
+			{
+				putchar(',');
+				putchar(' ');
 			}
+
 		}
 	}
 	return (0);
