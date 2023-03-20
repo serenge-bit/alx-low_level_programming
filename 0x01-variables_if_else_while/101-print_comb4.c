@@ -26,7 +26,8 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					if (i + j + k != 24)
+					if (i == 7 && j == 8 && k == 9)
+						putchar('\n');
 					{
 					putchar(',');
 					putchar(' ');
@@ -34,6 +35,6 @@ int main(void)
 				}
 			}
 	}
-	putchar('\n')
+
 	return (0);
 }
