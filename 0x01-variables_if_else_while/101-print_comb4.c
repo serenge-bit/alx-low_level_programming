@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - this is the main function
+ * main - Entry point
  *
  * Descripion: codeing
  *
- * Returrn:  if 0 it is void
+ * Return:  if 0 it is void
  */
-
 int main(void)
-
 {	int i;
 	int j;
 	int k;
