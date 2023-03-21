@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - this is the main function
  *
  * Descripion: codeing
  *
- * Returrn: 0 if void
+ * Returrn:  if 0 it is void
  */
 
 int main(void)
