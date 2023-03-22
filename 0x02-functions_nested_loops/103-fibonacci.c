@@ -13,7 +13,7 @@ int main(void)
 	j = 1;
 	for (count = 0; count < 50 ; count++)
 	{
-		k = i = j;
+		k = i + j;
 		i = j;
 		j = k;
 		if (k % 2 == 0 && k < 4000000)
