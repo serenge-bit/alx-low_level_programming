@@ -15,7 +15,7 @@ void prime_factors(long inpt);
  */
 int main(void)
 {
-	prime_factor(612852475143);
+	prime_factors(612852475143);
 	return (0);
 }
 /**
@@ -33,7 +33,7 @@ void prime_factors(long inpt)
 	{
 		if (inpt % factor == 0)
 		{
-			inpt /= divisor;
+			inpt /= factor;
 		}
 		else
 		{
