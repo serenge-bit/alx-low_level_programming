@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - function of the code
+ * main: function of the code
+ * Description: coding
  */
 
 int main(void)
