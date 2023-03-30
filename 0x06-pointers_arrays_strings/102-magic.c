@@ -1,7 +1,12 @@
 #include <stdio.h>
+
 /**
- * main: function of the code
- * Description: coding
+ * main - Entry point for the program
+ *
+ * Description: Demonstrates a pointer trick to set a value in an integer array
+ * without using the array variable.
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
